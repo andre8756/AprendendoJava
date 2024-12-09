@@ -1,0 +1,12 @@
+package Armazenamento.copy;
+
+public abstract class Armazenamento {
+	
+	protected String dado;
+	
+	public Armazenamento(String dado) {
+		this.dado = dado;
+	}
+	
+	public abstract void armazenar(String dado);
+}
